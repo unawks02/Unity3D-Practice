@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/myUIss.uss?fileID=7433441132597879392&amp;guid=c578ec1ae312e69489c215a0ef3f61c8&amp;type=3#myUIss" />
+    <ui:VisualElement style="max-width: 100%; max-height: 100px; min-width: 100%; min-height: 100%; background-color: rgb(94, 166, 183);" />
+    <ui:VisualElement name="ViualElement" style="position: absolute; align-items: center; justify-content: flex-end; left: 30%; bottom: auto; top: 20%; height: 334px; width: 330px; background-color: rgb(65, 62, 62); right: 30%;">
+        <ui:Label text="Sage for TFGD" display-tooltip-when-elided="true" style="bottom: 300px; position: absolute; color: rgb(245, 239, 239); font-size: 15px;" />
+        <ui:Label text="My First Game" display-tooltip-when-elided="true" name="Label" style="font-size: 30px; -unity-font-style: bold; height: 31px; bottom: 220px; position: absolute; color: rgb(243, 242, 242);" />
+        <ui:Button text="Start" display-tooltip-when-elided="true" name="start" class="button mybutton" style="bottom: 120px; position: absolute; width: 100px; height: 50px;" />
+        <ui:Button text="Hello" display-tooltip-when-elided="true" name="hello" class="button mybutton" style="bottom: 30px; border-left-color: rgb(31, 51, 108); border-right-color: rgb(31, 51, 108); border-top-color: rgb(31, 51, 108); border-bottom-color: rgb(31, 51, 108); border-left-width: 2px; border-right-width: 2px; border-top-width: 2px; border-bottom-width: 2px; position: absolute; width: 100px; height: 50px;" />
+    </ui:VisualElement>
+</ui:UXML>
